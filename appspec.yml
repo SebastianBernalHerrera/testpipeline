@@ -1,0 +1,10 @@
+version: 0.2
+os: linux
+files:
+  - source: /index.html
+    destination: /var/www/html/
+# phases:
+#   build:
+#     commands: 
+#       -zip -r index.zip index.html
+#       - aws s3 cp index.zip s3://bucket.hello
